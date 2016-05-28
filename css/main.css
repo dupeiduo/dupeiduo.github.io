@@ -1,0 +1,142 @@
+/**
+ * Author：dupeiduo
+ * Note：the main css file
+ * Date：2016/5/24
+ */
+body {
+	font-family: Roboto,"Helvetica Neue",sans-serif,"微软雅黑";	
+}
+h1 {
+  font-size: 26px;
+  margin: 30px 0;
+  font-weight: normal;
+}
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+}
+h4 {
+  color: #fff;
+  font-weight: normal;
+}
+.bodyer {
+  display: none;
+}
+.header {
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	width: 100%;
+	height: 65px;
+  background: rgba(245,248,250,1);
+  box-shadow: 1px 1px 7px #999;
+}
+.logo {
+	float: left;
+	text-decoration: none;
+	color: #1FB1A9;
+  padding: 10px;
+  font-size: 16px;
+  moz-user-select: -moz-none;
+
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+.logo:hover {
+	text-decoration: none;
+	color: #1FB1A9;
+}
+.order {
+	font-size: 16px;
+}
+.order ul {
+  right: 10%;
+  position: absolute;
+  padding: 10px 0;
+}
+.order li {
+	float: left;
+	list-style: none;
+  padding: 0 20px 0 0;
+}
+.order li a {
+	color: #666;
+	text-decoration: none;
+}
+.order li a:hover, .order .selected a {
+	color: red;
+}
+
+
+.main-content {
+	margin: 65px 0 0 0 ;
+}
+.carousel-control {
+  font-size: 80px;
+  margin-top: 10%;
+}
+
+.hr-line {
+  border-top: 1px solid #999;
+}
+
+footer {
+	margin-top: 100px;
+	background: linear-gradient(-90deg, #1C1C1C, #414141);
+	color: #999;
+	padding: 70px 15px;
+}
+
+.general, .partners, .about-us, .join-in {
+  margin: 60px 100px;
+}
+.partners a {
+  float: left;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.partners p {
+  margin: 10px;
+}
+.general-content, .join-content {
+  color: #666;
+  font-size: 16px;
+  text-indent: 2em;
+  line-height: 1.5;
+  word-break: normal;
+  word-wrap: break-word;
+}
+.position-container {
+  margin: 0 0 0 30px;
+}
+.positon-content {
+  color: #666;
+  font-size: 16px;
+  word-break: normal;
+  word-wrap: break-word;
+}
+.company {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 100px 0;
+}
+
+.zzjg {
+  width: 80%;
+}
+.join-in h2 {
+  background-color: #1FB1A9;
+  padding: 10px;
+  border-radius: 3px;
+}
+@media (max-width: 1000px){
+	.logo-title {
+		display: none;
+	}
+}
