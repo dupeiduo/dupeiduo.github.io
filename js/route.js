@@ -32,7 +32,7 @@ function readHTML(htmlUrl){
     async:false, 
     url : htmlUrl, 
     success : function(result){ 
-      loadContent((result));
+      loadContent(result);
     } 
   }); 
 } 
